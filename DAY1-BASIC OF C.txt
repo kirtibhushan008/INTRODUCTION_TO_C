@@ -1,0 +1,10 @@
+1.BASIC OF C
+#include <stdio.h>
+int main()
+{
+    printf("hello");
+    return 0;
+}
+OUTPUT:
+hello
+=== Code Execution Successful ===

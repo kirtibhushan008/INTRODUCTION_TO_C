@@ -1,0 +1,30 @@
+3.ARITHMETIC OPERATOR
+#include <stdio.h>
+int main()
+{
+    int x,y,sum,diff,prodct,divd;
+    printf("Enter a value of x:");
+    scanf("%d",&x);
+    printf("Enter a value of y:");
+    scanf("%d",&y);
+    sum=x+y;
+    diff=x-y;
+    prodct=x*y;
+    divd=x/y;
+    printf("sum=%d\n",sum);
+    printf("difference=%d\n",diff);
+    printf("product=%d\n",prodct);
+    printf("division=%d\n",divd);
+    return 0;
+}
+OUTPUT:
+Enter a value of x:10
+Enter a value of y:5
+sum=15
+difference=5
+product=50
+division=2
+=== Code Execution Successful ===
+
+
+

@@ -1,0 +1,27 @@
+2.VARIOUS DATATYPE
+#include <stdio.h>
+int main()
+{
+    int A;
+    float B;
+    char C;
+    printf("Enter a variable of A:");
+    scanf("%d", &A);
+    printf("%d\n", A);
+    printf("Enter a float of B:");
+    scanf("%f", &B);
+    printf("%f\n", B);
+    printf("Enter a variable of C:");
+    scanf(" %c", &C);  
+    printf("%c\n", C);
+    return 0;
+}
+OUTPUT:
+Enter a variable of A:9
+9
+Enter a float of B:2.43587
+2.435870
+Enter a variable of C:H
+H
+=== Code Execution Successful ===
+
