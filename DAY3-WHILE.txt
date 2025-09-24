@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int i=1,SUM=0;
+    
+    while(i<=10){
+        SUM+=i;
+        i++;
+    }
+    printf("%d\n",SUM);
+    return 0;
+}
+OUTPUT:
+55
+=== Code Execution Successful ===

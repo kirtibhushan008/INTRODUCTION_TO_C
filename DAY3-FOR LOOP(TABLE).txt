@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{ 
+    int i,n,r;
+    printf("Enter a number:"); 
+    scanf("%d",&n);
+    printf("Enter the range: ");
+    scanf("%d",&r);
+    for(i=1;i<=r;i++)
+    {
+        printf("%d * %d =%d \n",n,i,n*i); 
+        
+    } 
+    return 0; 
+    
+} 
+OUTPUT:
+Enter a number:6
+Enter the range: 10
+6 * 1 =6 
+6 * 2 =12 
+6 * 3 =18 
+6 * 4 =24 
+6 * 5 =30 
+6 * 6 =36 
+6 * 7 =42 
+6 * 8 =48 
+6 * 9 =54 
+6 * 10 =60 
+=== Code Execution Successful ===
