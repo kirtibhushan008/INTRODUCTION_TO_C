@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,c,rel;
+    printf("Enter a three values; \n");
+    scanf("%d %d %d",&a,&b,&c);
+    rel=(a=b)?((a=c)?a:c):((b=c)?b:c);
+    printf("relation= %d",rel);
+    return 0;
+}
+OUTPUT:
+Enter a three values; 
+5
+6
+5
+relation= 5
+=== Code Execution Successful ===
