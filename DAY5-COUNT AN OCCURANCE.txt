@@ -1,0 +1,28 @@
+#include <stdio.h>
+int main()
+{
+   int i,n,x,count=0;
+   printf("Enter limit to an array: ");
+   scanf("%d",&n);
+   int a[n];
+   printf("Add numbers to an array : ");
+   for(i=0;i<n;i++)
+   {
+       scanf("%d",&a[i]);
+   }
+   printf("Enter number to count : ");
+   scanf("%d",&x);
+   for(i=0;i<n;i++)
+   {
+       if(a[i]==x)
+       count++;
+   }
+   printf("The count of the %d is %d times occurs in an array\n",x,count);
+    return 0;
+}
+OUTPUT:
+Enter limit to an array: 5
+Add numbers to an array : 1 2 3 4 5
+Enter number to count : 5
+The count of the 5 is 1 times occurs in an array
+=== Code Execution Successful ===
