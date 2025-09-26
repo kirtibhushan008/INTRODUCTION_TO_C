@@ -1,0 +1,54 @@
+Attachment DAY4-MULTIPLICATION IN AN ARRAY.txt removed.Conversation opened. 1 unread message.
+
+Skip to content
+Using K. Ramakrishnan College of Technology Mail with screen readers
+
+1 of 54
+(no subject)
+Inbox
+
+Mohamed Zubarulhaq A <mohamedzubarulhaq.me24@krct.ac.in>
+Attachments
+11:58 AM (0 minutes ago)
+to me
+
+
+ One attachment
+  •  Scanned by Gmail
+#include <stdio.h>
+
+int main() {
+    int arr[] = {1, 2, 2, 3, 4, 4, 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int temp[n];
+    int i, j, k = 0;
+    int isDuplicate;
+
+    for (i = 0; i < n; i++) {
+        isDuplicate = 0;
+        for (j = 0; j < k; j++) {
+            if (arr[i] == temp[j]) {
+                isDuplicate = 1;
+                break;
+            }
+        }
+        if (!isDuplicate) {
+            temp[k] = arr[i];
+            k++;
+        }
+    }
+    printf("Array after removing duplicates:\n");
+    for (i = 0; i < k; i++) {
+        printf("%d ", temp[i]);
+    }
+
+    return 0;
+}
+----------------------------------------------------
+OUTPUT:
+Array after removing duplicates:
+1 2 3 4 5 
+
+=== Code Execution Successful ===
+DAY 5- REMOVING THE REPEATING NUMBERS.txt
+Displaying DAY 5- REMOVING THE REPEATING NUMBERS.txt.
